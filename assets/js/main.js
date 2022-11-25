@@ -54,8 +54,7 @@ function pagination(){
 		$('#loadMore').css('color','black');
 		$('#loadMore').css('text-transform','capitalize');	;
 		$('body').css('background-color','#ff0000');
-	}	
-
+	}
 	pokeApi.getPokemons(limit,offset).then((pokemons = []) => {
 	console.log(pokemons);
 	const array= pokemons.map(element => convertPokemonToHtml(element)).join('');
@@ -67,6 +66,7 @@ function pagination(){
 	$('#poke').html(arrayHtml);
 	});	
 }
+// a função constructor filtra os dados recebidos,após a busca com a url do pokemon .
 function constructor(obj){
  const poke = new Pokemon(); // instanciando um objeto da classe Pokemon
  poke.id = obj.id;
