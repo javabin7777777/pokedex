@@ -1,0 +1,2 @@
+# pokedex
+JavaScript projeto pokedex
