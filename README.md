@@ -1,3 +1,3 @@
-# pokedex
+# Pokedex
 Projeto pokedex com JavaScript/Css/Html.  
-Usando Api pokedex.  
+Usando Api Pokedex.  
